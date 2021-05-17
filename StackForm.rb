@@ -1,7 +1,3 @@
-#!/usr/bin/env ruby
-
-load "MrCoxallStack.rb"
-
 ##
 # This program adds numbers to an array using OOP.
 #
@@ -9,6 +5,8 @@ load "MrCoxallStack.rb"
 # Version: 1.0
 # Since:   2021-05-17
 # frozen_string_literal: true
+
+load "MrCoxallStack.rb"
 
 begin
     # variables
