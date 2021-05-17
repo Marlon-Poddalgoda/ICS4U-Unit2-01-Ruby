@@ -6,6 +6,7 @@
 # Created by: Marlon Poddalgoda
 # Version: 1.0
 # Since:   2021-05-17
+# frozen_string_literal: true
 
 class MrCoxallStack
     # Class for MrCoxallStack
@@ -22,7 +23,7 @@ class MrCoxallStack
         @stack_as_list.push(userInput)
     end
 
-    def show_stack()
+    def show_stack
         # prints list to console
         @stack_as_list.each { |value| puts "#{value}" }
     end
